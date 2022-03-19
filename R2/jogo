@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jogo</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            form {
+                font-size: 1.5em;
+            }
+            .scrambled, input, button {
+                font-family: monospace;
+                font-size: 2em;
+            }
+            
+        </style>
+    </head>
+    <body>
+    
+    <h1>JOGO DO ADVINHA</h1>
+    <form id="joke-form">
+        <label>
+            Descubra a palavra: <Br>
+            <span class="scrambled">ADALCA</span>
+            <br>
+            <input type="text" size="10">
+        </label>
+        <button type="submit">Check</button>
+    </form>
+    
+    </body>
+</html>
